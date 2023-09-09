@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div>
+    <button type="button" class="login-tab">đăng nhập</button>
+  </div>
+
+  <div id="overlay">
+    <div class="overlay"></div>
+    <div class="form-validate">
+      <div class="login-or-register">
+        <div class="login">
+          <span>Đăng nhập</span>
+        </div>
+        <div class="register">
+          <span>Đăng kí</span>
+        </div>
+
+      </div>
+      <div id="loginform" class=" tabcontent">
+        <p class="title">Với các tài khoản mạng xã hội</p>
+        <div class="login-other">
+          <div class="social-media">
+            <div class="gg">
+              <img width="15%"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png"
+                alt="">
+              <span>google</span>
+            </div>
+            <div class="fb">
+              <img width="15%"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/768px-Facebook_Logo_%282019%29.png"
+                alt="">
+              <span>facebook</span>
+            </div>
+          </div>
+        </div>
+        <span class="other">Hoặc</span>
+        <span class="notice-login-fail">Account not existed</span>
+        <form action="">
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" class="input-login">
+          <span class="notice-login"></span>
+          <label for="password">Mật khẩu</label>
+          <input type="password" id="password" name="password" class="input-login">
+          <span class="notice-login"></span>
+          <span class="forgot-pass"><a href="#">Bạn quên mật khẩu?</a></span>
+          <button class="btn btn-login">Đăng nhập</button>
+        </form>
+
+      </div>
+      <div id="registerform" class="tabcontent">
+        <p class="title">hoàn thành đăng kí và bắt đầu trải nghiệm ngay</p>
+        <span class="notice-login-fail">Account not existed</span>
+
+        <form action="">
+          <label for="email">Họ và tên</label>
+          <input type="text" id="name" class="input-register">
+          <span class="notice-register"></span>
+          <label for="email-register">Email</label>
+          <input type="text" id="email-register" name="email-register" class="input-register">
+          <span class="notice-register"></span>
+          <label for="password-register">Mật khẩu</label>
+          <input type="password" id="password-register" name="password-register" class="input-register">
+          <span class="notice-register"></span>
+
+          <span class="title-2">Bằng cách đăng ký tài khoản, bạn cũng đồng thời chấp nhận mọi điều kiện về quy định và
+            chính sách của Dân trí</span>
+          <button class="btn btn-register">Đăng kí</button>
+        </form>
+
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <script src="json.js"></script>
+</body>
+
+</html>
